@@ -23,7 +23,7 @@ class Vehiculo:
 
 
 class Coche(Vehiculo):
-    """Clase derivada que extiende Vehiculo añadiendo la capacidad de conducir."""
+    # Clase derivada que extiende Vehiculo añadiendo la capacidad de conducir
 
     def __init__(self, marca: str, modelo: str):
         super().__init__(marca)
